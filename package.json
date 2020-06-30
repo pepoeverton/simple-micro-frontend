@@ -1,0 +1,19 @@
+{
+  "name": "simple-micro-frontend",
+  "version": "1.0.0",
+  "description": "This project is an example of micro frontend using Module Federation",
+  "scripts": {
+    "install-all": "(cd dashboard && yarn install); (cd profile && yarn install); (cd projects && yarn install);",
+    "start-all": "(cd dashboard && yarn start) & (cd profile && yarn start) & (cd projects && yarn start);"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepoeverton/simple-micro-frontend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pepoeverton/simple-micro-frontend/issues"
+  },
+  "homepage": "https://github.com/pepoeverton/simple-micro-frontend#readme"
+}
